@@ -1,0 +1,11 @@
+Docker
+docker ps -a
+docker start id
+docker exec -it "id" bash
+su - db2inst1
+db2start
+db2sampl
+
+
+docker run --name some-mysql1 -p 3306:3306 -e MYSQL_ROOT_PASSWORD=hola -d mysql
+
